@@ -1,18 +1,3 @@
-
-.container{
-    max-width: 1344px;
-    margin: 0 auto;
-    padding: 0 24px;
-    @media (max-width:992px){
-        max-width: 872px;
-        margin: 0 auto;
-    }
-    @media (max-width:767px){
-        max-width: 693px;
-        margin: 0 auto;
-    }
-}
-
 .header{
     background-color: #AA0601;
     .navbar{
@@ -32,7 +17,7 @@
     }
         img{
             width: 80px;
-                padding: 12px 0;
+            padding: 12px 0;
             }
         .menu{
             display: flex;
@@ -43,7 +28,7 @@
                 display: block;
                 text-decoration: none;
                 color: #FFFF;
-                font-family:'Noto Sans TC', sans-serif ;
+                font-family:$ff;
                 font-size: 20px;
                 line-height: 1.5;
                 &:hover{
@@ -51,17 +36,17 @@
                 }
             }
         @media (max-width:767px){
-            flex-wrap: wrap;
+                width: 100%;
+                flex-wrap: wrap;
                 li{ 
                     width: 50%;
-                    margin: 0 auto;
+                    margin-left: 0px;
                     border: 1px solid #FFFF;
                     a{
                         font-size: 16px;
                         text-align: center;
-                        padding: 12px 100px;
                     }
                 }
             }
-            }
+        }
 }
