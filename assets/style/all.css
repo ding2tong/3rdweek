@@ -192,6 +192,9 @@ img {
       color: #FFFFFF;
       margin-right: 22px;
       width: 36px; }
+      @media (max-width: 767px) {
+        .footer .contact-text .fa-phone, .footer .contact-text .fa-envelope {
+          margin-right: 10px; } }
     .footer .contact-text p {
       font-family: "Roboto", "Noto Sans TC", sans-serif;
       font-size: 36px;
