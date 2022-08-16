@@ -66,10 +66,17 @@
         padding-bottom: 32px;
         margin-bottom: 32px;
         border-bottom: 1px solid #ffffff;
+        a{
+            text-decoration: none;
+            color: #FFFFFF;
+            &:hover{
+                opacity: 0.5;
+            }
+        }
         .fa-phone,.fa-envelope{
             color: #FFFFFF;
             margin-right: 22px;
-            width: 36px;
+            
         @media (max-width:767px){
             margin-right: 10px;
         }
